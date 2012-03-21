@@ -173,6 +173,14 @@
 					<height>45</height>
 					<texture border="5">ListNF.png</texture>
 				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>10</width>
+					<height>45</height>
+                                        <aspectratio>stretch</aspectratio>
+                                        <texture>$INFO[ListItem.AudioLanguage,flags/,.png]</texture>
+				</control>
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
@@ -242,6 +250,14 @@
 					<width>567</width>
 					<height>45</height>
 					<texture border="5">ThumbFO.png</texture>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>10</width>
+					<height>45</height>
+                                        <aspectratio>stretch</aspectratio>
+                                        <texture>$INFO[ListItem.AudioLanguage,flags/,.png]</texture>
 				</control>
 				<control type="label">
 					<posx>20</posx>
